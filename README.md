@@ -2,6 +2,10 @@
 
 Just a proof of concept, please be kind.
 
+## Setup
+
+Golang and Proto-go-gen.
+
 ## How to
 
 1. Start all the things
