@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package signaling;
+option go_package = "github.com/jsmouret/grpc-over-webrtc/server/protos/signaling";
 
 service SignalingService {
 	rpc Offer(OfferRequest) returns (OfferResponse);
