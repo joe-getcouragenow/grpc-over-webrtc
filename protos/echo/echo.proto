@@ -15,6 +15,7 @@
 syntax = "proto3";
 
 package grpc.gateway.testing;
+option go_package = "github.com/jsmouret/grpc-over-webrtc/server/protos/echo";
 
 message Empty {}
 

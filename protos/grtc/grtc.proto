@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package grtc;
+option go_package = "github.com/jsmouret/grpc-over-webrtc/server/protos/grtc";
 
 import "google/rpc/status.proto";
 
